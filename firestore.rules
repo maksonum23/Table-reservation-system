@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /reservations/{document=**} {
+      // Allow read/write for now since it's a prototype without auth
+      allow read, write: if true;
+    }
+  }
+}

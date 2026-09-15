@@ -1,0 +1,8 @@
+{
+  "name": "Table Reservation System",
+  "description": "An online restaurant table reservation prototype with an interactive floor plan map.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
